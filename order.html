@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Order Bot WhatsApp</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-header bg-success text-white">
+            <h4 class="mb-0">ORDER BOT WHATSAPP Fayyy's</h4>
+          </div>
+          <div class="card-body">
+            <form id="orderForm">
+              <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control" id="name" placeholder="Nama">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <label for="phone">No. WhatsApp</label>
+                <input type="text" class="form-control" id="phone" placeholder="No. WhatsApp">
+              </div>
+              <div class="form-group">
+                <label for="product">Pilih Produk</label>
+                <select class="form-control" id="product">
+                  <option value="">-- Pilih Produk --</option>
+                  <option value="SEWA BOT 5 DAY">SEWA BOT 5 DAY IDR 5.000</option>
+                  <option value="SEWA BOT 30 DAY">SEWA BOT 30 DAY IDR 10.000</option>
+                  <option value="SEWA BOT 60 DAY">SEWA BOT 60 DAY IDR 20.000</option>
+                  <option value="SEWA BOT AKSES PREMIUM 5 DAY">SEWA BOT AKSES PREMIUM 5 DAY IDR 10.000</option>
+                  <option value="SEWA BOT AKSES PREMIUM 30 DAY">SEWA BOT AKSES PREMIUM 30 DAY IDR 15.000</option>
+                  <option value="SEWA BOT AKSES PREMIUM 60 DAY">SEWA BOT AKSES PREMIUM 60 DAY IDR 20.000</option>
+                  <option value="SEWA BOT AKSES OWNER 5 DAY">SEWA BOT AKSES OWNER 5 DAY IDR 25.000</option>
+                  <option value="SEWA BOT AKSES ONWNER 30 DAY">SEWA BOT AKSES OWNER 30 DAY IDR 35.000</option>
+                  <option value="SEWA BOT AKSES OWNER 60 DAY">SEWA BOT AKSES OWNER 60 DAY IDR 40.000</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="description">Catatan</label>
+                <textarea class="form-control" id="description" rows="3" placeholder="Catatan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success send">Kirim Pesanan</button>
+            </form>
+            <div id="text-info" class="mt-3"></div>
+            <div id="notification"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./assest/js/script.js"></script>
+</body>
+</html>
